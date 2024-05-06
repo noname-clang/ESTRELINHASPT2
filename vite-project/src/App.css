@@ -1,0 +1,85 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.Divmain{
+  background-image:linear-gradient(rgb(48, 50, 73), rgb(22, 21, 32)) ;
+  height: 400px;
+  width: 400px;
+  border-radius: 40px;
+  padding-top: 50px; 
+  padding-left: 42px;
+}
+.Divmain h2{
+  
+  font-size: 30px;
+
+}
+.Divmain h5, h2 {
+
+  text-align: left;
+
+}
+.Divmain h5 {
+  font-weight: 100;
+  font-size: 16px;
+  width: 360px;
+}
+.esteladiv{
+  
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(59, 59, 73);
+  border-radius: 90px;
+}
+.esteladiv img{
+  margin: 0 auto;
+  height: 20px;
+}
+.classbuttons{
+
+  display: flex;
+  padding-left: 0px;
+  padding-right: 45px;  
+  margin: 0 auto;
+
+}
+.classbuttons input{
+  color: rgba(223, 219, 219, 0.739);
+
+  margin: 0 auto;
+  height: 45px;
+  width: 45px;
+  border: 0px black;
+  border-radius: 90px;
+}
+.classbuttons input:hover{
+  background-color: rgb(249, 170, 0);
+}
+
+.classbuttons input:focus{
+  background-color: rgb(61, 59, 59);
+}
+.subimitediv{
+  display: flex;
+  padding: 15px;
+  padding-left: 0px;
+}
+.subimitediv input{
+  
+  border: 0px;
+  background-color: rgb(255, 140, 0);
+  width: 350px;
+  height: 40px;
+  border-radius: 30px;
+}
+.subimitediv input:focus{
+  background-color: white;
+  color: rgb(255, 140, 0);
+}
